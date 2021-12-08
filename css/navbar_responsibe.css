@@ -1,0 +1,460 @@
+
+body {
+    margin: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(150, 184, 247);
+  }
+  .body{
+    width: 90%;
+    margin: auto;
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    margin-top:15px;
+  }
+  .navbar ul{
+      width: 100%;
+  }
+  .navbar ul li {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 0px;
+    list-style: none;
+    
+  }
+  .navbar ul li a{
+    text-decoration: none;
+    padding: 16px 10px;
+    
+    color: white;
+    font-size: 17px;
+    
+    
+  }
+  .headder{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    margin: 10px 0px;
+    padding: 0;
+}
+
+  .logo_bar{
+    float: left;
+    padding-left: 7px;
+    overflow: hidden;
+    display: block;
+    overflow: hidden;
+    width: 20%;
+    font-size: 25px;
+    margin-top: 10px;
+    
+    
+    
+   
+}
+.logo_bar h3{
+    color: white;
+    margin: 10px;
+    padding: 0;
+}
+.search{
+     
+    overflow: hidden;
+    float: right;
+    margin-top: 10px;
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 75%;
+    display: block;
+    
+    
+  }
+  .search_bar{
+      float: right;
+      width: 80%;
+      height: 35px;
+      margin: 5px 5px;
+      border-radius: 10px;
+      background-color: rgb(255, 255, 255);
+      text-align: center;
+      display: block;
+      overflow: hidden;
+
+    }
+    .search_bar:focus{
+        background-color: black;
+        color: white;
+        
+        font-size: 20px;
+        border: 2px solid yellow;
+    }
+    .search_button{
+      float: right;
+      margin: 5px 5px;
+      width: 12%;
+      height: 35px;
+      font-size:18px;
+      color: yellow;
+      display: block;
+      overflow: hidden;
+      background-color: slateblue;
+     
+    }
+  .search_button:hover{
+    background-color: blue;
+    color: white;
+  }
+  @media screen and (max-width: 840px) {
+      .body{
+          width: 100%;
+      }
+    .logo_bar{
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding: 0px 0px;
+        background-color: midnightblue;
+    }
+    .logo_bar h3{
+        font-size: 35px;
+       
+    }
+    .search{
+        float: none;
+        width: 100%;
+    }
+    .search_bar{
+        width: 67%;
+        float: left;
+    }
+    .search_button{
+        width: 25%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .search_bar{
+      float: left;
+      width: 66%;
+      height: 35px;
+      margin: 5px 0px;
+      border-radius: 10px;
+      background-color: rgb(255, 255, 255);
+      text-align: center;
+      display: block;
+      overflow: hidden;
+
+    }
+   
+    .search_button{
+      float: right;
+      margin: 5px 5px;
+      width: 30%;
+      height: 35px;
+      font-size:18px;
+      color: yellow;
+      display: block;
+      overflow: hidden;
+     
+    }
+
+  }
+
+  .navbar ul li a:hover{
+   background-color: springgreen;
+   padding: 7px;
+    
+  }
+  .navbar ul{
+      margin: 0px;
+      padding: 0px;
+  }
+  
+  
+  .navbar ul li.icon {
+    display: none;
+  }
+
+
+  .navbar ul li ul{
+      background-color: rgb(0, 5, 5);
+      position: absolute;
+      width: 10%;
+      
+  }
+.navbar ul li ul li{
+    float: none;
+    text-align: left;
+    overflow: hidden;
+    display: none;
+    position: relative;
+    width: 100%;
+   
+}
+.navbar ul li:hover ul.sub_menu li{
+    display: block;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .navbar ul li ul{
+        width: 30%;
+    }   
+   
+    .navbar ul li ul{
+        float: left;
+        text-align: left;
+        overflow: hidden;
+        display: none;
+        position: relative;
+        width: 100%;
+       
+    }
+    .navbar ul li:hover ul.sub_menu{
+        display: block;
+        
+    }
+   
+} 
+
+
+ 
+  @media screen and (max-width: 600px) {
+    .navbar ul li:not(:first-child) {display: none;}
+    .navbar ul li.icon{
+      display: block;
+      float: left;
+      text-align: center;
+    }
+    .icon{
+        display: block;
+        overflow: hidden;
+    }
+     .navbar ul{
+       margin:0px;
+       padding:0px;
+    }
+}
+    @media screen and (max-width: 600px) {
+     .navbar.responsive {position: relative;}
+     .navbar.responsive.icon{
+      float: left;
+      position: absolute;
+      right: 0;
+      top: 0;
+      position:absolute;
+      text-align:left;
+     }
+     .navbar.responsive ul li{
+      float: none;
+      display: block;
+      text-align: left;
+      margin: 7px 0px;
+      width: 100%;
+     
+     
+    }
+    .body{
+        width: 100%;
+        margin-top: 5px;
+    }
+    .navbar.responsive ul li:hover{
+        background-color: darkblue;
+        color: white;
+        width: 100%;
+        
+      }
+      }
+  
+  .logo{
+    background-color: midnightblue;
+    color: yellow;
+    height: 60px;
+  }
+  .slider img{
+    width: 100%;
+    height: 300px;
+  }
+  .main_content{
+    background-color: slategray;
+    height: 60px;
+    margin-top: -23px;
+    padding-top: 5px;
+  }
+  .main_content h3{
+    text-align: center;
+    font-size: 25px;
+    }
+    .content img{
+      
+      width: 100%;
+    }
+    .content{
+      width: 23%;
+      float: left;
+      margin: 0px 1%;
+    }
+    @media screen and (max-width: 600px) {
+    .content {
+      float: none;
+      width: 100%;
+    }
+  }
+    .content input{
+      display: block;
+      margin: auto;
+      width: 100%;
+      height: 30px;
+    }
+    .content input:hover{
+      background-color: green;
+      color: greenyellow;
+    }
+    .content p{
+      text-align: justify;
+    }
+    .content_promote{
+      width: 40%;
+      
+    }
+    .content_promote3{
+      width: 40%;
+      
+    }
+    .footer{
+      width: 100%;
+      background-color: gray;
+      overflow: hidden;
+      display: block;
+      
+    }
+    @media screen and (max-width: 600px) {
+    .content_promote {
+      width: 100%;
+      overflow: hidden;
+      background-color: grey;
+    }
+  }
+    @media screen and (max-width: 600px) {
+    .content_promote3 {
+      width: 100%;
+      overflow: hidden;
+      background-color: grey;
+    }
+  }
+  .footer_left{
+    width: 45%;
+    float: left;
+  }
+ 
+  @media screen and (max-width: 600px) {
+    .footer_left {
+      width: 100%;
+      overflow: hidden;
+      
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .footer_right iframe{
+      width: 97%;
+      padding-left: 0px;
+      padding-right: 5px;
+      
+      
+    }
+  }
+  .footer_left input{
+    width: 97%;
+    height: 30px;
+    margin: 0px 5px;
+  }
+  .footer_left textarea{
+    width: 97%;
+  }
+  .footer_blank{
+    height: 20px;
+  }
+  .service{
+    width: 32%;
+    float: left;
+    margin: 6px;
+  }
+  .service img{
+    width: 100%;
+    height: 300px;
+  }
+  .service button{
+    display: block;
+    margin: auto;
+  }
+  .service h1{
+    text-align: center;
+    color: blue;
+  }
+  .service p{
+    text-align: justify;
+    padding: 0px 5px;
+  }
+  @media screen and (max-width: 600px) {
+    .service {
+      float: none;
+      width: 100%;
+      overflow: hidden;
+      display: block;
+    }
+  }
+  .about{
+    width: 32%;
+    float: left;
+    margin: 6px;
+  }
+  .about img{
+    width: 100%;
+    height: 300px;
+  }
+  .about button{
+    display: block;
+    margin: auto;
+  }
+  .about h1{
+    text-align: center;
+    color: blue;
+  }
+  .about h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: tahoma;
+    font-style: italic;
+    font-weight: 700;
+  }
+  .about p{
+    text-align: justify;
+    padding: 0px 5px;
+  }
+  @media screen and (max-width: 600px) {
+    .about {
+      float: none;
+      width: 100%;
+      overflow: hidden;
+      display: block;
+    }
+  }
+  .slider{
+    animation: web;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+  @keyframes web{
+    100% {background: url(../images99/banner.jpg)no-repeat center;}
+    0% {background: url(../images99/tv.jpg)no-repeat center;}
+    20% {background: url(../images99/laptop.jpg)no-repeat center;}
+    40% {background: url(../images99/banner.jpg)no-repeat center;}
+    60% {background: url(../images99/2.jpg)no-repeat center;}
+    80% {background: url(../images99/laptop.jpg)no-repeat center;}
+    100% {background: url(../images99/banner.jpg)no-repeat center;}
+    
+    }

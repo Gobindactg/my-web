@@ -37,6 +37,30 @@
 .product img{
     width: 100%;
 }
+@media screen and (max-width: 800px) {
+    .product{
+        float: none;
+        width: 100%;
+    }
+    .content_left{
+        width: 100%;
+        float: none;
+        
+    }
+    .content_left h2{
+        width: 100%;
+        text-align: center;
+    }
+    .content_left a{
+        float: left;
+        padding: 10px;
+       
+    }
+    .content_right{
+        width: 100%;
+        margin: 5px;
+    }
+    }
 .product img:hover{
     transform: rotateY(180deg);
 	-webkit-transform: rotateY(180deg);

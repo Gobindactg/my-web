@@ -13,6 +13,19 @@
     
     
 }
+@media screen and (max-width: 800px) {
+    .content_left{
+        float: none;
+        width: 100%;
+    }
+    .content_right{
+        float: none;
+        width: 100%;
+    }
+    .main_content1{
+        background-color: midnightblue;
+    }
+}
 .content_left p{
     text-align: justify;
     

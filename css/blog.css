@@ -22,20 +22,21 @@
         float: none;
         width: 100%;
     }
-   . cobtent_right img{
-    
-    width:100%,
+   .content_right img{
+        width:100%,
         margin:0px 5px
-  
-    
-    }
+     }
+    .content_right img{
+        width:100%,
+        margin:0px 5px
+     }
     .main_content1{
         background-color: midnightblue;
     }
 }
 .content_left p{
     text-align: justify;
-    
+    color:black;
     line-height: 20px;
 }
 
@@ -58,6 +59,6 @@
 }
 .content_right p{
     text-align: justify;
-   
+   color:black;
     line-height: 20px;
 }
